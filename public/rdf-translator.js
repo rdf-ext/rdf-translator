@@ -9,6 +9,8 @@ import rdf from 'rdf-ext'
 import RdfPrefixes from './RdfPrefixes.js'
 import TextInput from './TextInput.js'
 
+document.getElementById('version').innerHTML = `${__APP_NAME__} version: ${__APP_VERSION__}`
+
 const defaultBase = 'http://example.org/'
 
 const defaultData = `@base <https://housemd.rdf-ext.org/person/>. 
