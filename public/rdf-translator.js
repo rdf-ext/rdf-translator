@@ -9,7 +9,7 @@ import rdf from 'rdf-ext'
 import RdfPrefixes from './RdfPrefixes.js'
 import TextInput from './TextInput.js'
 
-document.getElementById('version').innerHTML = `${__APP_NAME__} version: ${__APP_VERSION__}`
+document.getElementById('version').innerHTML = `${__APP_NAME__} version: ${__APP_VERSION__}` // eslint-disable-line no-undef
 
 const defaultBase = 'http://example.org/'
 
