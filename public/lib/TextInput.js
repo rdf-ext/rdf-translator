@@ -1,9 +1,9 @@
 import { LitElement, html } from 'lit'
-import style from 'rdf-elements/src/style.js'
+import style from './style.js'
 
 class TextInput extends LitElement {
   static get styles () {
-    return style()
+    return [style]
   }
 
   static get properties () {

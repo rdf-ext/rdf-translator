@@ -1,10 +1,10 @@
 import { LitElement, html } from 'lit'
-import style from 'rdf-elements/src/style.js'
 import rdf from 'rdf-ext'
+import style from './style.js'
 
 class RdfPrefixes extends LitElement {
   static get styles () {
-    return style()
+    return [style]
   }
 
   static get properties () {

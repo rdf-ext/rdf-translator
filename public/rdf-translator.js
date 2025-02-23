@@ -1,13 +1,16 @@
 import '@vaadin/horizontal-layout'
 import '@vaadin/split-layout'
+import { documentStyle } from 'bs-elements'
 import { LitElement, css, html, render } from 'lit'
 import { hasChangedDataset } from 'rdf-elements/hasChanged.js'
 import RdfEditor from 'rdf-elements/RdfEditor.js'
 import RdfFormatSelector from 'rdf-elements/RdfFormatSelector.js'
-import style from 'rdf-elements/src/style.js'
 import rdf from 'rdf-ext'
-import RdfPrefixes from './RdfPrefixes.js'
-import TextInput from './TextInput.js'
+import RdfPrefixes from './lib/RdfPrefixes.js'
+import style from './lib/style.js'
+import TextInput from './lib/TextInput.js'
+
+documentStyle()
 
 document.getElementById('version').innerHTML = `${__APP_NAME__} version: ${__APP_VERSION__}` // eslint-disable-line no-undef
 
@@ -44,8 +47,10 @@ const sourceFormats = {
 
 class RdfTranslator extends LitElement {
   static get styles () {
-    return [style(), css`
-    vaadin-text-area {
+    return [
+      style,
+      css`
+        vaadin-text-area {
         width: 100%;
         min-height: 100px;
         max-height: 150px;
