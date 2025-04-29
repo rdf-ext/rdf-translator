@@ -29,7 +29,7 @@
   "devDependencies": {
     "@vaadin/app-layout": "^24.7.4",
     "@vaadin/horizontal-layout": "^24.7.2",
-    "@vaadin/split-layout": "^24.7.4",
+    "@vaadin/split-layout": "^24.7.5",
     "bs-elements": "^0.1.1",
     "rdf-elements": "^0.1.4",
     "rdf-ext": "^2.5.2",
