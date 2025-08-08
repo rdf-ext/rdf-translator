@@ -28,7 +28,7 @@
   "homepage": "https://github.com/rdf-ext/rdf-translator",
   "devDependencies": {
     "@vaadin/app-layout": "^24.8.4",
-    "@vaadin/horizontal-layout": "^24.8.4",
+    "@vaadin/horizontal-layout": "^24.8.5",
     "@vaadin/split-layout": "^24.8.4",
     "bs-elements": "^0.1.1",
     "rdf-elements": "^0.1.4",
