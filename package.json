@@ -1,6 +1,6 @@
 {
   "name": "rdf-translator",
-  "version": "0.1.18",
+  "version": "0.1.19",
   "private": true,
   "description": "RDF Translator",
   "type": "module",
