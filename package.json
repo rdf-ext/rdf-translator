@@ -32,7 +32,7 @@
     "@vaadin/split-layout": "^24.8.4",
     "bs-elements": "^0.1.1",
     "rdf-elements": "^0.1.4",
-    "rdf-ext": "^2.5.2",
+    "rdf-ext": "^2.6.0",
     "stricter-standard": "^0.3.1",
     "vite": "^7.0.6"
   }
